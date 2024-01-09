@@ -143,6 +143,7 @@ const columnTypes: {
           isPrivateSupported: true,
         },
       },
+      
       {
         payload: {
           icon: { family: 'octicon', name: 'organization' },

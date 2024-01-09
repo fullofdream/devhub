@@ -6,12 +6,7 @@ export const AppIconBadge = React.memo((_props: AppIconBadgeProps) => {
   return null
 })
 
-// Before enabling this for mobile, needs to:
-// 1. Fix badge on Android
-// 2. Make sure the badge number will get automatically updated on background
-/*
-import React from 'react'
-import firebase from '@react-native-firebase/app'
+
 
 import { useUnreadCount } from '../context/UnreadCountContext'
 
