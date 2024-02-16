@@ -6,11 +6,13 @@ It's hard to do it alone, so bug reports, feature requests and other contributio
 Whenever possible, please make a pull request with the implementation instead of just requesting it.
 If the feature is big, open an issue first for discussion.
 
-> **Important**: DevHub is a mobile-first cross-platform project. All code syntax targets react-native, not react-dom. Make sure to use `StyleSheet` instead of normal CSS and to test it on both android/ios instead of only the browser.
+> **Important**: DevHub is a mobile-first cross-platform project. All code syntax targets react-native, not react-dom. Make sure to use `StyleSheet` instead of normal CSS and to test it on both android/ios instead only the browser.
 
 ## Running it locally
 
 ### Requirements
+
+
 
 - [Node.js](https://nodejs.org/) (latest)
 - [Yarn](https://yarnpkg.com/)

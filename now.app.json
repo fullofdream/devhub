@@ -8,11 +8,13 @@
       "use": "@now/static"
     }
   ],
+  
   "routes": [
     {
       "src": "/(.*)\\.(.*)",
       "dest": "/packages/web/dist/$1.$2"
     },
+
     {
       "src": "/",
       "dest": "/packages/web/dist/index.html"
